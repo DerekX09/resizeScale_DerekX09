@@ -16,4 +16,4 @@ CSG cubeBigger = cube
 				.makeKeepaway((double)10.0)
 				.movex(size*1.5)
 				
-return [cube,cubeBigger, cubeSmaller ]
+return [cube,cubeBigger, cubeSmall ]
