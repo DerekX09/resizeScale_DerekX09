@@ -13,7 +13,7 @@ CSG cubeSmall = cube
 // this can be a shell or printer keepaway
 // this increases the size by a spacific measurment in mm
 CSG cubeBigger = cube
-				.makeKeepaway((double)-10.0)
+				.makeKeepaway((double)10.0)
 				.movex(size*1.5)
 				
 return [cube,cubeBigger, cubeSmall ]
